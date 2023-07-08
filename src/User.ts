@@ -9,7 +9,8 @@ class User {
   constructor() {
     this.name = faker.name.firstName();
     this.location = {
-      
+      lat:
+      lng:
     }
   }
 }
@@ -22,3 +23,4 @@ class User {
 // - initialization name in constructor = this.name = faker.name.firstName();
 // - randomly generrate a name and assign it to that name property
 // - initialization location property to be an object in constructor = this.location = {}
+// - lat & lng = property object in constructor
