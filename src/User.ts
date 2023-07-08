@@ -6,7 +6,9 @@ class User {
     lng: number;
   };
 
-  constructor() {}
+  constructor() {
+    this.name = faker.name.firstName();
+  }
 }
 
 // add progression :
@@ -14,3 +16,5 @@ class User {
 // - this case want to randomly generate name, latitude and longtitude 
 // - initialization inside of constructor function instead
 // - import faker module for generating random data
+// - initialization name in constructor = this.name = faker.name.firstName();
+// - randomly generrate a name and assign it to that name property
