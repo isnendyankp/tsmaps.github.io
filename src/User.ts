@@ -1,5 +1,5 @@
 import faker from 'faker';
-class User {
+export class User {
   name: string;
   location: {
     lat: number;
@@ -26,3 +26,4 @@ class User {
 // - lat & lng = property object in constructor
 // - randomly generate a latitude & longtitude with faker = lat: faker.address.latitude(), lng: faker.address.longtitude()
 // - using parseFloat for convert string to number (lat & lng default type is number)
+// - export class User = export class user to index.ts
