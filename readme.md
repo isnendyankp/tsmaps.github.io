@@ -9,5 +9,6 @@ Design Patterns with install:
 - parcel bundler: npm install -g parcel-bundler
 - faker for generating random data:  npm install faker
 - types definition files on faker: npm install @types/faker
+- installed on terminal: npm install @types/googlemaps
 
 

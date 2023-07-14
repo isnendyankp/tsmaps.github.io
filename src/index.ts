@@ -9,8 +9,11 @@ const company = new Company();
 
 console.log(company);
 
+google
+
 // step progress:
 // - import class user from User.ts
 // - cr8 variable equal class User with checking console.log(user);
 // - import class Company from Company.ts
 // -  cr8 variable equal class Company with checking console.log(company);
+// - install on terminal: npm install @types/googlemaps
