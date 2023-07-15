@@ -30,4 +30,4 @@ new google.maps.Map(document.getElementById('map') as HTMLElement, {
 // - add document selector with id is map = new google.maps.Map(document.getElementById('map'));
 // - to avoid a ts error, add "as HTMLElement" = new google.maps.Map(document.getElementById('map') as HTMLElement);
 // - first argument = document.getElementById('map') as HTMLElement
-// - cr8 second argument with two property in object = zoom, center with option property lat, lng
+// - cr8 second argument with two property in object = zoom, center with option property lat & lng
