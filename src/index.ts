@@ -9,7 +9,7 @@
 
 // console.log(company);
 
-new google.maps.Map();
+new google.maps.Map(document.getElementById('map'));
 
 // step progress:
 // - import class user from User.ts
@@ -21,3 +21,4 @@ new google.maps.Map();
 // - google = global variable, maps = property, Map = class
 // - cr8 an instance of a map class = new google.maps.Map();
 // - cr8 an HTML element to the house map & pass a refrence to it as the first  argument
+// - add document selector with id is map = new google.maps.Map(document.getElementById('map'));
