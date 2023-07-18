@@ -1,6 +1,14 @@
 // import { User } from './User';
 // import { Company } from './Company';
 
+const map = new google.maps.Map(document.getElementById('map') as HTMLElement, {
+  zoom: 1,
+  center: {
+    lat: 0,
+    lng: 0,
+  },
+});
+
 // const user = new User();
 
 // console.log(user);
@@ -9,13 +17,7 @@
 
 // console.log(company);
 
-new google.maps.Map(document.getElementById('map') as HTMLElement, {
-  zoom: 1,
-  center: {
-    lat: 0,
-    lng: 0,
-  },
-});
+
 
 // step progress:
 // - import class user from User.ts
@@ -31,3 +33,4 @@ new google.maps.Map(document.getElementById('map') as HTMLElement, {
 // - to avoid a ts error, add "as HTMLElement" = new google.maps.Map(document.getElementById('map') as HTMLElement);
 // - first argument = document.getElementById('map') as HTMLElement
 // - cr8 second argument with two property in object = zoom, center with option property lat & lng
+// - cr8 equal variable on instance of map class
