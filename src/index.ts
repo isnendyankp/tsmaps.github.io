@@ -3,7 +3,9 @@
 
 import { CustomMap } from './CustomMap';
 
-const customMaps = new CustomMap();
+const customMap = new CustomMap();
+
+customMap.googleMap
 
 // const user = new User();
 
@@ -32,3 +34,4 @@ const customMaps = new CustomMap();
 // - cr8 equal variable on instance of map class
 // - remove eaual variable on instance of map class & move all instance of map class to customMaps.ts
 // - import CustomMap & assign into variable
+// - trying to refrence property(googleMap) = cannot access because that propety set a private
