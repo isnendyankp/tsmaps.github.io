@@ -2,7 +2,16 @@ export class CustomMap {
   googleMap: google.maps.Map;
 
   constructor() {
-    this.googleMap =
+    this.googleMap = new google.maps.Map(
+      document.getElementById('map') as HTMLElement,
+      {
+        zoom: 1,
+        center: {
+          lat: 0,
+          lng: 0,
+        },
+      }
+    );
   }
 }
 
@@ -12,3 +21,4 @@ export class CustomMap {
 // - add property googleMap with instance of the class Google Maps map: googleMap: google.maps.Map;
 // - create constructor for initialize & cr8 this map and show it on the screen: constructor() {}
 // - add initialize property googleMap in constructor
+// - add instance google map class
