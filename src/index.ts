@@ -1,7 +1,9 @@
 // import { User } from './User';
 // import { Company } from './Company';
 
+import { CustomMap } from './CustomMap';
 
+const customMaps = new CustomMap();
 
 // const user = new User();
 
@@ -29,3 +31,4 @@
 // - cr8 second argument with two property in object = zoom, center with option property lat & lng
 // - cr8 equal variable on instance of map class
 // - remove eaual variable on instance of map class & move all instance of map class to customMaps.ts
+// - import CustomMap & assign into variable
