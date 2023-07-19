@@ -1,5 +1,5 @@
 export class CustomMap {
-  googleMap: google.maps.Map;
+  private googleMap: google.maps.Map;
 
   constructor() {
     this.googleMap = new google.maps.Map(
@@ -22,3 +22,4 @@ export class CustomMap {
 // - create constructor for initialize & cr8 this map and show it on the screen: constructor() {}
 // - add initialize property googleMap in constructor
 // - add instance google map class
+// - make class CustomMap into private access
