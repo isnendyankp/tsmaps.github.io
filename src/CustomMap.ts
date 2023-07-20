@@ -1,9 +1,9 @@
 export class CustomMap {
   private googleMap: google.maps.Map;
 
-  constructor() {
+  constructor(divId: string) {
     this.googleMap = new google.maps.Map(
-      document.getElementById('map') as HTMLElement,
+      document.getElementById(divId) as HTMLElement,
       {
         zoom: 1,
         center: {
@@ -23,3 +23,4 @@ export class CustomMap {
 // - add initialize property googleMap in constructor
 // - add instance google map class
 // - make class CustomMap into private access
+// - pass parameter in the id as an argument to constructor 
