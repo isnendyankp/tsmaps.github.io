@@ -13,6 +13,14 @@ export class CustomMap {
       }
     );
   }
+
+  addUserMarker() {
+
+  }
+
+  addCompanyMarker() {
+
+  }
 }
 
 
@@ -23,4 +31,5 @@ export class CustomMap {
 // - add initialize property googleMap in constructor
 // - add instance google map class
 // - make class CustomMap into private access
-// - pass parameter in the id as an argument to constructor 
+// - pass parameter in the id as an argument to constructor = divId: string
+// - cr8 2 base method: addUserMarker & addCompanyMarker
