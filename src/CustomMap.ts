@@ -1,3 +1,5 @@
+import { User } from './User';
+import { Company } from './Company';
 export class CustomMap {
   private googleMap: google.maps.Map;
 
@@ -14,15 +16,10 @@ export class CustomMap {
     );
   }
 
-  addUserMarker() {
+  addUserMarker() {}
 
-  }
-
-  addCompanyMarker() {
-
-  }
+  addCompanyMarker() {}
 }
-
 
 // step Progress:
 // - cr8 base class CustomMap & export it: export class CustomMap {}
@@ -33,3 +30,4 @@ export class CustomMap {
 // - make class CustomMap into private access
 // - pass parameter in the id as an argument to constructor = divId: string
 // - cr8 2 base method: addUserMarker & addCompanyMarker
+// - import User & Company
