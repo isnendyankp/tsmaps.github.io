@@ -1,7 +1,8 @@
-// import { User } from './User';
+import { User } from './User';
 // import { Company } from './Company';
-
 import { CustomMap } from './CustomMap';
+
+const user = new User();
 
 new CustomMap('map');
 
@@ -35,3 +36,4 @@ new CustomMap('map');
 // - trying to refrence property(googleMap) = cannot access because that propety set a private
 // - remove assign equal variable & use refrence property
 // - cr8 an intance of our map with pass in the id of element (map)
+// - cr8 equal variable user
