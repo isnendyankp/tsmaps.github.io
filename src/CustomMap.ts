@@ -16,9 +16,9 @@ export class CustomMap {
     );
   }
 
-  addUserMarker() {}
+  addUserMarker(user: User) {}
 
-  addCompanyMarker() {}
+  addCompanyMarker(company: Company) {}
 }
 
 // step Progress:
@@ -31,3 +31,4 @@ export class CustomMap {
 // - pass parameter in the id as an argument to constructor = divId: string
 // - cr8 2 base method: addUserMarker & addCompanyMarker
 // - import User & Company
+// - add paramter for each method
