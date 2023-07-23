@@ -17,7 +17,13 @@ export class CustomMap {
   }
 
   addUserMarker(user: User): void {
-    new google.maps.Marker();
+    new google.maps.Marker({
+      map: this.googleMap,
+      position: {
+        lat: user.location.lat,
+        lng: user.location.lng,
+      },
+    });
   }
 
   addCompanyMarker(company: Company): void {}
@@ -36,3 +42,4 @@ export class CustomMap {
 // - add paramter for each method
 // - add void return for each method
 // - add a marker on the screen  with : new google.maps.Marker
+// - add property inside object marker
