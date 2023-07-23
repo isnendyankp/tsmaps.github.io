@@ -5,6 +5,8 @@ import { CustomMap } from './CustomMap';
 const user = new User();
 const customMap = new CustomMap('map');
 
+customMap.addUserMarker(user);
+
 // const user = new User();
 
 // console.log(user);
@@ -37,3 +39,4 @@ const customMap = new CustomMap('map');
 // - cr8 an intance of our map with pass in the id of element (map)
 // - cr8 equal variable user
 // - cr8 equal variable customMap
+// - pass in user on customMap with method addUserMarker
