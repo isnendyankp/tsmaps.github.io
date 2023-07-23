@@ -3,8 +3,7 @@ import { User } from './User';
 import { CustomMap } from './CustomMap';
 
 const user = new User();
-
-new CustomMap('map');
+const customMap = new CustomMap('map');
 
 // const user = new User();
 
@@ -37,3 +36,4 @@ new CustomMap('map');
 // - remove assign equal variable & use refrence property
 // - cr8 an intance of our map with pass in the id of element (map)
 // - cr8 equal variable user
+// - cr8 equal variable customMap
