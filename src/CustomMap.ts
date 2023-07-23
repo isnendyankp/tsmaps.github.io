@@ -16,9 +16,9 @@ export class CustomMap {
     );
   }
 
-  addUserMarker(user: User) {}
+  addUserMarker(user: User): void {}
 
-  addCompanyMarker(company: Company) {}
+  addCompanyMarker(company: Company): void {}
 }
 
 // step Progress:
@@ -32,3 +32,4 @@ export class CustomMap {
 // - cr8 2 base method: addUserMarker & addCompanyMarker
 // - import User & Company
 // - add paramter for each method
+// - add void return for each method
