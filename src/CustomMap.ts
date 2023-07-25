@@ -26,7 +26,9 @@ export class CustomMap {
     });
   }
 
-  addCompanyMarker(company: Company): void {}
+  addCompanyMarker(company: Company): void {
+    new google.maps.Marker({})
+  }
 }
 
 // step Progress:
@@ -43,3 +45,4 @@ export class CustomMap {
 // - add void return for each method
 // - add a marker on the screen  with : new google.maps.Marker
 // - add property inside object marker
+// - add googlemap marker on addCompanyMarker
