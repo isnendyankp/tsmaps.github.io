@@ -1,8 +1,9 @@
 import { User } from './User';
-// import { Company } from './Company';
+import { Company } from './Company';
 import { CustomMap } from './CustomMap';
 
 const user = new User();
+const company = new Company();
 const customMap = new CustomMap('map');
 
 customMap.addUserMarker(user);
@@ -40,3 +41,4 @@ customMap.addUserMarker(user);
 // - cr8 equal variable user
 // - cr8 equal variable customMap
 // - pass in user on customMap with method addUserMarker
+// - enable import company & cr8 equal var company 
