@@ -27,7 +27,9 @@ export class CustomMap {
   }
 
   addCompanyMarker(company: Company): void {
-    new google.maps.Marker({})
+    new google.maps.Marker({
+      map: this.googleMap,
+    });
   }
 }
 
@@ -46,3 +48,4 @@ export class CustomMap {
 // - add a marker on the screen  with : new google.maps.Marker
 // - add property inside object marker
 // - add googlemap marker on addCompanyMarker
+// - add option object with property map
