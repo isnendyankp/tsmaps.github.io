@@ -73,11 +73,10 @@ export class CustomMap {
 // - add property inside object marker
 // - add googlemap marker on addCompanyMarker
 // - add option object with property map
-// - add option object with property position 
+// - add option object with property position
 // - cr8 generic method
 // - cr8 generic method with parameter mappable and have 2 option class user and company
 // - add mappale on property position
 // - cr8 interface base Mappable
 // - add property lat & lng on interface Mappable
-// - change class on addMarker method to interface Mappable with parameter mappable
-
+// - change class on addMarker method to interface Mappable with parameter mappable (for solution Restricting access with interfaces)
