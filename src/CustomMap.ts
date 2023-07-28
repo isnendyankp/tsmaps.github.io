@@ -1,5 +1,10 @@
 import { User } from './User';
 import { Company } from './Company';
+
+interface Mappable {
+  
+}
+
 export class CustomMap {
   private googleMap: google.maps.Map;
 
@@ -67,4 +72,5 @@ export class CustomMap {
 // - cr8 generic method
 // - cr8 generic method with parameter mappable and have 2 option class user and company
 // - add mappale on property position
+// - cr8 interface base Mappable
 
