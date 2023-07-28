@@ -26,7 +26,7 @@ export class CustomMap {
     );
   }
 
-  addMarker(mappable: User | Company): void {
+  addMarker(mappable: Mappable): void {
     new google.maps.Marker({
       map: this.googleMap,
       position: {
@@ -79,4 +79,5 @@ export class CustomMap {
 // - add mappale on property position
 // - cr8 interface base Mappable
 // - add property lat & lng on interface Mappable
+// - change class on addMarker method to interface Mappable with parameter mappable
 
