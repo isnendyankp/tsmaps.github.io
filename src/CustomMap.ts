@@ -16,12 +16,12 @@ export class CustomMap {
     );
   }
 
-  addMarker(mappable: User | Company):void {
+  addMarker(mappable: User | Company): void {
     new google.maps.Marker({
       map: this.googleMap,
       position: {
-        lat: .location.lat,
-        lng: .location.lng,
+        lat: mappable.location.lat,
+        lng: mappable.location.lng,
       },
     });
   }
@@ -66,4 +66,5 @@ export class CustomMap {
 // - add option object with property position 
 // - cr8 generic method
 // - cr8 generic method with parameter mappable and have 2 option class user and company
+// - add mappale on property position
 
