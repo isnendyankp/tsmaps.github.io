@@ -16,25 +16,35 @@ export class CustomMap {
     );
   }
 
-  addUserMarker(user: User): void {
+  Marker(): void {
     new google.maps.Marker({
       map: this.googleMap,
       position: {
-        lat: user.location.lat,
-        lng: user.location.lng,
+        lat: .location.lat,
+        lng: .location.lng,
       },
     });
   }
 
-  addCompanyMarker(company: Company): void {
-    new google.maps.Marker({
-      map: this.googleMap,
-      position: {
-        lat: company.location.lat,
-        lng: company.location.lng,
-      },
-    });
-  }
+  // addUserMarker(user: User): void {
+  //   new google.maps.Marker({
+  //     map: this.googleMap,
+  //     position: {
+  //       lat: user.location.lat,
+  //       lng: user.location.lng,
+  //     },
+  //   });
+  // }
+
+  // addCompanyMarker(company: Company): void {
+  //   new google.maps.Marker({
+  //     map: this.googleMap,
+  //     position: {
+  //       lat: company.location.lat,
+  //       lng: company.location.lng,
+  //     },
+  //   });
+  // }
 }
 
 // step Progress:
@@ -54,4 +64,5 @@ export class CustomMap {
 // - add googlemap marker on addCompanyMarker
 // - add option object with property map
 // - add option object with property position 
+// - cr8 generic method
 
