@@ -34,7 +34,9 @@ export class CustomMap {
    });
 
    marker.addListener('click', () => {
-
+     const infoWindow = new google.maps.InfoWindow({
+       content: 'Hi there!',
+     });
    });
   }
 }
@@ -64,3 +66,4 @@ export class CustomMap {
 // - change class on addMarker method to interface Mappable with parameter mappable (for solution Restricting access with interfaces)
 // - remove junk code & sign marker to variable
 // - add base event listener to the marker
+// - sign infoWindow for pass option object with content inside
