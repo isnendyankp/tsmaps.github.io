@@ -25,19 +25,21 @@ export class CustomMap {
   }
 
   addMarker(mappable: Mappable): void {
-   const marker = new google.maps.Marker({
-     map: this.googleMap,
-     position: {
-       lat: mappable.location.lat,
-       lng: mappable.location.lng,
-     },
-   });
+    const marker = new google.maps.Marker({
+      map: this.googleMap,
+      position: {
+        lat: mappable.location.lat,
+        lng: mappable.location.lng,
+      },
+    });
 
-   marker.addListener('click', () => {
-     const infoWindow = new google.maps.InfoWindow({
-       content: 'Hi there!',
-     });
-   });
+    marker.addListener('click', () => {
+      const infoWindow = new google.maps.InfoWindow({
+        content: 'Hi there!',
+      });
+
+      infoWindow.open(this.googleMap, marker);
+    });
   }
 }
 
@@ -67,3 +69,4 @@ export class CustomMap {
 // - remove junk code & sign marker to variable
 // - add base event listener to the marker
 // - sign infoWindow for pass option object with content inside
+// - connecting infoWindow to googleMap marker
