@@ -6,8 +6,8 @@ const user = new User();
 const company = new Company();
 const customMap = new CustomMap('map');
 
-customMap.addUserMarker(user);
-customMap.addCompanyMarker(company);
+customMap.addMarker(user);
+customMap.addMarker(company);
 
 // const user = new User();
 
@@ -43,4 +43,5 @@ customMap.addCompanyMarker(company);
 // - cr8 equal variable customMap
 // - pass in user on customMap with method addUserMarker
 // - enable import company & cr8 equal var company
-// - use company and add it as a marker 
+// - use company and add it as a marker
+// - fix up the refrences to method addMarker
