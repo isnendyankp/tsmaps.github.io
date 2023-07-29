@@ -32,6 +32,10 @@ export class CustomMap {
        lng: mappable.location.lng,
      },
    });
+
+   marker.addListener('click', () => {
+
+   });
   }
 }
 
@@ -59,3 +63,4 @@ export class CustomMap {
 // - add property lat & lng on interface Mappable
 // - change class on addMarker method to interface Mappable with parameter mappable (for solution Restricting access with interfaces)
 // - remove junk code & sign marker to variable
+// - add base event listener to the marker
