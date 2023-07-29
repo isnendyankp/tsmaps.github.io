@@ -17,8 +17,6 @@ customMap.addMarker(company);
 
 // console.log(company);
 
-
-
 // step progress:
 // - import class user from User.ts
 // - cr8 variable equal class User with checking console.log(user);
