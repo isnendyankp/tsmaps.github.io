@@ -6,6 +6,7 @@ interface Mappable {
     lat: number;
     lng: number;
   };
+  markerContent(): string;
 }
 
 export class CustomMap {
@@ -70,3 +71,4 @@ export class CustomMap {
 // - add base event listener to the marker
 // - sign infoWindow for pass option object with content inside
 // - connecting infoWindow to googleMap marker
+// - add property on interface Mappable
