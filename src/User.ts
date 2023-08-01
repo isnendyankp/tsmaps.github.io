@@ -15,7 +15,7 @@ export class User {
     };
   }
   markerContent(): string {
-
+    return `User Name: ${this.name}`;
   }
 }
 
@@ -32,4 +32,5 @@ export class User {
 // - using parseFloat for convert string to number (lat & lng default type is number)
 // - export class User = export class user to index.ts
 // - fix import faker To use this library, you can install it by running: npm install @faker-js/faker
-// - cr8 base function markerContent with return a string
+// - cr8 base markerContent method with return a string
+// - add return string with format teks User Name with value property value name at object this
