@@ -14,6 +14,9 @@ export class User {
       lng: parseFloat(faker.address.longitude()),
     };
   }
+  markerContent(): string {
+
+  }
 }
 
 // Step progression :
@@ -29,3 +32,4 @@ export class User {
 // - using parseFloat for convert string to number (lat & lng default type is number)
 // - export class User = export class user to index.ts
 // - fix import faker To use this library, you can install it by running: npm install @faker-js/faker
+// - cr8 base function markerContent with return a string
