@@ -16,6 +16,10 @@ export class Company {
       lng: parseFloat(faker.address.longitude()),
     };
   }
+
+  markerContent() {
+
+  }
 }
 
 // Step progress:
@@ -26,3 +30,4 @@ export class Company {
 // - initialize property companyPhrase for generate catchy phrases or slogans which are also generated randomly using the faker library and are generally used to represent a company in a nutshell.
 // - initialize property location for generates a location or place with latitude and longitude coordinates taken randomly using faker.
 // - fix import faker To use this library, you can install it by running: npm install @faker-js/faker
+// - cr8 base method markerContent
