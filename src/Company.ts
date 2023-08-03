@@ -36,4 +36,4 @@ export class Company {
 // - initialize property location for generates a location or place with latitude and longitude coordinates taken randomly using faker.
 // - fix import faker To use this library, you can install it by running: npm install @faker-js/faker
 // - cr8 base method markerContent
-// - Add type method & return with company name & catchphrase
+// - Add type method & return with company name & catchphrase on markerContent

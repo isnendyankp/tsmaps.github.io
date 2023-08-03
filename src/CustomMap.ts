@@ -36,7 +36,7 @@ export class CustomMap {
 
     marker.addListener('click', () => {
       const infoWindow = new google.maps.InfoWindow({
-        content: 'Hi there!',
+        content: mappable.markerContent(),
       });
 
       infoWindow.open(this.googleMap, marker);
@@ -72,3 +72,4 @@ export class CustomMap {
 // - sign infoWindow for pass option object with content inside
 // - connecting infoWindow to googleMap marker
 // - add property on interface Mappable
+// - change content from hi there to mappable.markerContent().So if we click the marker will be show Company Name & Catchphrase
