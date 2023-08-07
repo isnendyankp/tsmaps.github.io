@@ -1,5 +1,7 @@
 import { faker } from '@faker-js/faker';
 
+import { Mappable } from './CustomMap';
+
 export class User {
   name: string;
   location: {
@@ -34,3 +36,4 @@ export class User {
 // - fix import faker To use this library, you can install it by running: npm install @faker-js/faker
 // - cr8 base markerContent method with return a string
 // - add return string with format teks User Name with value property value name at object this
+// - import Mappable
