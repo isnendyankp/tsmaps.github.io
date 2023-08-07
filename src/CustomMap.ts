@@ -1,7 +1,7 @@
 /// <reference types="@types/google.maps" />
 // Instructions to every other class
 // on how they can be an argument to 'addMarker'
-interface Mappable {
+export interface Mappable {
   location: {
     lat: number;
     lng: number;
@@ -75,3 +75,4 @@ export class CustomMap {
 // - add property on interface Mappable
 // - change content from hi there to mappable.markerContent().So if we click the marker will be show Company Name & Catchphrase
 // - Add property color on interface Mappable
+// - export interface Mappable
