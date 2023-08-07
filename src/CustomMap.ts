@@ -7,6 +7,7 @@ interface Mappable {
     lng: number;
   };
   markerContent(): string;
+  color: string;
 }
 
 export class CustomMap {
@@ -73,3 +74,4 @@ export class CustomMap {
 // - connecting infoWindow to googleMap marker
 // - add property on interface Mappable
 // - change content from hi there to mappable.markerContent().So if we click the marker will be show Company Name & Catchphrase
+// - Add property color on interface Mappable
