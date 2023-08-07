@@ -2,7 +2,7 @@ import { faker } from '@faker-js/faker';
 
 import { Mappable } from './CustomMap';
 
-export class User {
+export class User implements Mappable {
   name: string;
   location: {
     lat: number;
@@ -37,3 +37,4 @@ export class User {
 // - cr8 base markerContent method with return a string
 // - add return string with format teks User Name with value property value name at object this
 // - import Mappable
+// - implement Mappable on class User
