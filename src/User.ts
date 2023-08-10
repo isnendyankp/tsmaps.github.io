@@ -1,5 +1,4 @@
 import { faker } from '@faker-js/faker';
-
 import { Mappable } from './CustomMap';
 
 export class User implements Mappable {
@@ -8,6 +7,7 @@ export class User implements Mappable {
     lat: number;
     lng: number;
   };
+  color: string = 'red';
 
   constructor() {
     this.name = faker.name.firstName();
@@ -38,3 +38,4 @@ export class User implements Mappable {
 // - add return string with format teks User Name with value property value name at object this
 // - import Mappable
 // - implement Mappable on class User
+// - Add color property on class user(for fix trouble at index on code : customMap.addMarker(user);)
