@@ -1,7 +1,7 @@
 import { faker } from '@faker-js/faker';
 import { Mappable } from './CustomMap';
 
-export class Company {
+export class Company implements Mappable {
   companyName: string;
   catchPhrase: string;
   location: {
@@ -39,3 +39,4 @@ export class Company {
 // - cr8 base method markerContent
 // - Add type method & return with company name & catchphrase on markerContent
 // - import mappable from CustomMap
+// - implement Mappable on class Company
