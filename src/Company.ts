@@ -8,6 +8,7 @@ export class Company implements Mappable {
     lat: number;
     lng: number;
   };
+  color: string = 'red';
 
   constructor() {
     this.companyName = faker.company.name();
@@ -40,3 +41,5 @@ export class Company implements Mappable {
 // - Add type method & return with company name & catchphrase on markerContent
 // - import mappable from CustomMap
 // - implement Mappable on class Company
+// - Add color property on class Company(for fix trouble at index on code : customMap.addMarker(company);)
+
