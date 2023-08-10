@@ -1,4 +1,5 @@
 import { faker } from '@faker-js/faker';
+import { Mappable } from './CustomMap';
 
 export class Company {
   companyName: string;
@@ -37,3 +38,4 @@ export class Company {
 // - fix import faker To use this library, you can install it by running: npm install @faker-js/faker
 // - cr8 base method markerContent
 // - Add type method & return with company name & catchphrase on markerContent
+// - import mappable from CustomMap
