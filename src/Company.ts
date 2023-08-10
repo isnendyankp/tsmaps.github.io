@@ -42,4 +42,3 @@ export class Company implements Mappable {
 // - import mappable from CustomMap
 // - implement Mappable on class Company
 // - Add color property on class Company(for fix trouble at index on code : customMap.addMarker(company);)
-
